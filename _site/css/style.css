@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    background-color: #FFFFFF;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  /* Headers */
+  h1, h2, h3 {
+    color: #007BFF;
+  }
+  
+  /* Links */
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Code */
+  pre, code {
+    font-family: 'Fira Code', monospace;
+  }
+  
+  /* Container for main content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+/* Navigation styles */
+nav {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333333;
+  font-size: 1.1em; /* Optional: Increase the font size */
+}
+
+nav i {
+  margin-right: 5px; /* Space between the icon and the text */
+}
+  
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  margin-right: 15px;
+}
+
+footer p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+
+  
