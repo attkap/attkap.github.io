@@ -1,3 +1,5 @@
-domain: attkap.github.io
 url: https://attkap.github.io
-baseurl: /ATTKAP.GITHUB.IO/
+baseurl: ""
+title: "Your Blog Title"
+description: "A brief description of your blog."
+author: "Your Name"
