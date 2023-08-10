@@ -40,17 +40,22 @@ body, h1, h2, h3, p, ul, ol, li {
     padding: 20px;
   }
   
-  /* Navigation */
-  nav {
-    background-color: #f8f9fa;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    color: #333333;
-  }
+/* Navigation styles */
+nav {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #333333;
+  font-size: 1.1em; /* Optional: Increase the font size */
+}
+
+nav i {
+  margin-right: 5px; /* Space between the icon and the text */
+}
   
 /* Footer */
 footer {
