@@ -11,13 +11,24 @@
         <nav>
             <a href="/">Home</a>
             <a href="/about">About</a>
+            <a href="/projects">Projects</a> <!-- Add link to projects page -->
         </nav>
     </header>
-    <main>
+    <main class="container">
         {{ content }}
     </main>
     <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} Your Name</p>
-    </footer>
+        <div class="container">
+          <div class="footer-links">
+            <!-- Social Media and Professional Links -->
+            <a href="https://github.com/attkap" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/attila-kaplan/" target="_blank">LinkedIn</a>
+          </div>
+          <!-- Contact Information -->
+          <p>Email: <a href="mailto:attkap@gmail.com">attkap@gmail.com</a></p>
+          <!-- Copyright Information -->
+          <p>&copy; {{ site.time | date: '%Y' }} Attila Kaplan</p>
+        </div>
+      </footer>      
 </body>
 </html>
