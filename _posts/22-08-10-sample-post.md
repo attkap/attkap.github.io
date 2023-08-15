@@ -1,17 +1,11 @@
 ---
 layout: default
-title: CustomerSupportGPT - a demo of using LLM-APIs to automate Customer Service
+title: "The Art of Customer Support Automation: Using Decision-Trees to Overcome Context Limitations."
 ---
 
 # The Art of Customer Support Automation: Using Decision-Trees to Overcome Context Limitations.
 
 *{{ page.date | date: "%B %d, %Y" }}*
-
-## Introduction
-
-Introductory text goes here...
-
-## Main Content
 
 I have created an MVP of a customer support bot using the OpenAI API. The idea was inspired by Andrew Ngen's excellent [Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/). 
 To me, this is one of the most obvious applications of LLMs as they are formidable at repetitive corporate writing and never get frustrated — even with the most irate and uncomfortable customers. I estimate that such applications can easily automate >20% of what is a mostly boring and uncomfortable job. 
@@ -36,8 +30,3 @@ Of course this system could be significantly enhanced and enlarged, by for insta
 ## Conclusion
 
 My MVP demonstrates a practical approach to overcome the challenges of context limitations in LLMs for customer service applications. By splitting workflows into self-contained work-packages and leveraging existing structures like decision trees, we can pave the way for AI to tackle larger tasks. What are your thoughts on this approach? Feel free to check out the code on [GitHub](https://github.com/attkap/CustomerServiceGPT) and share your insights!
-
-
-
-```language
-// Code snippet example
