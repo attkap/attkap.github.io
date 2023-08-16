@@ -3,8 +3,6 @@ layout: default
 title: "The Art of Customer Support Automation: Using Decision-Trees to Overcome Context Limitations."
 ---
 
-# The Art of Customer Support Automation: Using Decision-Trees to Overcome Context Limitations.
-
 *{{ page.date | date: "%B %d, %Y" }}*
 
 I have created an MVP of a customer support bot using the OpenAI API. The idea was inspired by Andrew Ngen's excellent [Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/). 
